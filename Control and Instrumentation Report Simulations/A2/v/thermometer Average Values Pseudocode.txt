@@ -1,0 +1,20 @@
+
+TEMPERATURES[] = {22.5,18.2,35.0,21.4,46.9} // example array containing 5 elements of type double
+SUM = 0; // variable to store the sum of the last three elements in the array, of type double
+AVERAGE = 0 // variable to store the average of the last three elements in the array, of type double
+
+Loop N from TEMPERATURES.length-3 to Temperatures.length-1 // start the loop at the 
+	SUM = SUM + TEMPERATURES[X]
+end loop
+	
+AVERAGE = SUM/3 // find the average of the last three elements in the array
+
+/*
+* NOTE: the above loop considers the element positions based on the length of the array
+* and so, this code works with any array regardless of its size. The output will always be the
+* average of the last 3 values
+*
+* The result of this code with the example array is 34.43
+* which is equal to the average of 35.0, 21.4 and 46.9
+*
+*/
