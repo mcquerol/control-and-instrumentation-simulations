@@ -1,0 +1,20 @@
+
+TEMP // input variable generating a temperature value each iteration, of type double
+SUM = 0.00 // variable to store the sum of the last three elements in the array, of type double
+AVERAGE = 0.00 // variable to store the average of the last three elements in the array, of type double
+STOP = False // stop button for the user to stop the program, of type boolean
+
+while STOP = false
+	Loop N from 0 to 3
+		SUM = SUM + TEMP
+	end loop
+	AVERAGE = SUM/3 // find the average three elements each iteration of the while loop
+endwhile
+	
+
+
+/*
+* NOTE: the modification of the pseudocode is now simplified. The user only needs the average of three values at a time
+* it was thought initially that the temp value needed to be in an array but that just makes the code more complex
+* the new code outputs the average of 3 temp values each iteration of the while loop, the output is then displayed in a graph.
+*/
