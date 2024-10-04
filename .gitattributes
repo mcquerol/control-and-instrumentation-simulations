@@ -1,5 +1,6 @@
 # Specify that .m files are MATLAB
 *.m linguist-language=MATLAB
+*.slx linguist-language=MATLAB
 
 # Specify that .vi files should be categorized as LabVIEW (or ignored)
 #*.vi linguist-vendored  # Exclude LabVIEW files from stats
