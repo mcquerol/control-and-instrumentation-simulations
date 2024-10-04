@@ -2,6 +2,6 @@
 *.m linguist-language=MATLAB
 
 # Specify that .vi files should be categorized as LabVIEW (or ignored)
-*.vi linguist-vendored  # Exclude LabVIEW files from stats
+#*.vi linguist-vendored  # Exclude LabVIEW files from stats
 # OR you can use:
-# *.vi linguist-language=LabVIEW  # Attempt to categorize as LabVIEW if desired
+*.vi linguist-language=LabVIEW  # Attempt to categorize as LabVIEW if desired
